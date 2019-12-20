@@ -363,6 +363,33 @@ i:hover{
 	clear: both;
 	display: table;
 }
+
+
+.prototypes {
+  float: left;
+  width: 50%;
+  padding: .3rem;
+}
+.prototypes-row::after {
+	content: "";
+	 clear: both;
+	 display: table;
+}
+.hifid{
+  float: left;
+  width: 50%;
+  padding: .3rem;
+}
+.hifid-row::after {
+	content: "";
+	 clear: both;
+	 display: table;
+}
+
+
+
+
+
 .flowsketch{
 	float: left;
 	width: 48%;
@@ -370,8 +397,8 @@ i:hover{
 }
 .personas {
 	float: left;
-  width: 48%;
-  padding: 3rem;
+  width: 50%;
+  padding: 2rem;
 }
 
 .sketch {
@@ -639,6 +666,17 @@ i:hover{
 .content p{
 	font-size: 2.5rem;
 }
+
+.prototypes{
+	 width: 100%;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.hifid{
+	 width: 100%;
+	 margin-left: auto;
+	 margin-right: auto;
+
 }
 
 @media screen and (max-width: 800px) {
