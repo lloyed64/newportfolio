@@ -364,16 +364,25 @@ i:hover{
 	display: table;
 }
 
-
+.wireframes-mock p{
+	padding-top: 5rem;
+}
 .prototypes {
   float: left;
   width: 50%;
   padding: .3rem;
 }
+.prototype-text{
+	margin-left: 50px;
+
+}
 .prototypes-row::after {
 	content: "";
 	 clear: both;
 	 display: table;
+}
+.prototypes-row p{
+	padding-top: 1rem;
 }
 .hifid{
   float: left;
