@@ -665,9 +665,7 @@ i:hover{
 	.flowsketch{
 		width:90%;
 	}
-	.imageandtext{
-		margin-top: 10px;
-	}
+
 	.footertext p{
 		font-size: 14px;
 		max-width: 90%;
@@ -685,7 +683,7 @@ i:hover{
 		font-size: 1.6rem;
 	}
 	#workflow .container {
-		margin-top: -40px;
+		margin-top: 30px;
 	}
 	.workflow-text{
 		text-align: center;
@@ -730,6 +728,3 @@ width:100%;
 		width:90%;
 	}
 }
-
-
-@media screen and (max-width: 950px) {
