@@ -1,4 +1,3 @@
-
 *, *::before, *::after { box-sizing: border-box;}
 
 html {
@@ -685,6 +684,9 @@ i:hover{
 	#workflow p{
 		font-size: 1.6rem;
 	}
+	#workflow .container {
+		margin-top: -40px;
+	}
 	.workflow-text{
 		text-align: center;
 		justify-content: center;
@@ -731,21 +733,3 @@ width:100%;
 
 
 @media screen and (max-width: 950px) {
-#workflow img{
-	text-align: center;
-	justify-content: center;
-	display:block;
-  margin-left: auto;
-  margin-right: auto;
-	padding-top: 10%;
-}
-#workflow .container {
-	margin-top: -40px;
-}
-.workflow-text{
-	text-align: center;
-	justify-content: center;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
