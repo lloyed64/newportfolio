@@ -330,7 +330,7 @@ i:hover{
 }
 
 .flowsketch img {
-  width: 350px;
+  width: 330px;
   display:inline-block;
   margin-left: 0rem;
   margin-right: auto;
@@ -420,8 +420,8 @@ i:hover{
 
 .flowsketch{
 	float: left;
-	width: 48%;
-	padding: 3rem;
+	width: 44%;
+
 }
 .personas {
 	float: left;
@@ -431,7 +431,7 @@ i:hover{
 
 .sketch {
 	float: left;
-  width: 48%;
+  width: 44%;
   padding: 3rem;
 }
 .branding-sketch p{
@@ -663,7 +663,7 @@ i:hover{
 		width: 100%;
 	}
 	.flowsketch{
-		width:90%;
+		width:40%;
 	}
 
 	.footertext p{
@@ -680,7 +680,7 @@ i:hover{
 	width:100%;
 	}
 	#workflow p{
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 	}
 	#workflow .container {
 		margin-top: 30px;
@@ -693,7 +693,7 @@ i:hover{
 		margin-right: auto;
 	}
 .content p{
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 
 .prototypes{
