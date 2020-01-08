@@ -681,6 +681,7 @@ i:hover{
 	}
 	#workflow p{
 		font-size: 1.8rem;
+
 	}
 	#workflow .container {
 		margin-top: 30px;
@@ -694,6 +695,7 @@ i:hover{
 	}
 .content p{
 	font-size: 2rem;
+	line-height: 3rem;
 }
 
 .prototypes{
