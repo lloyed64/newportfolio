@@ -51,15 +51,29 @@ body{
 	line-height: 44px;
 }
 
+
+
+
 #workflow{
-	height:100vh;
+	height:120vh;
 	min-height:480px;
 	background-image:linear-gradient(135deg, #0798C3 0%, #ffffff 100%);
 	background-size: 400% 400%;
 	position:relative;
 }
-
+#workoutlog{
+	height:120vh;
+	min-height:480px;
+	background-image:linear-gradient(135deg, #ECC539 0%, #ffffff 100%);
+	background-size: 400% 400%;
+	position:relative;
+}
 #workflow p  {
+	color: white;
+	font-size: 2rem;
+	padding-bottom: 2rem;
+}
+#workoutlog p  {
 	color: white;
 	font-size: 2rem;
 	padding-bottom: 2rem;
@@ -69,14 +83,30 @@ body{
 	max-width: 350px;
 	display:inline-block;
 }
+.workoutlog-text{
+	max-width: 350px;
+	display:inline-block;
+}
+.workoutlog-content{
+	margin-left: 250px;
+}
 #workflow img{
 	width:550px;
 	display:inline-block;
   float: left;
 }
-#workflow .container {
-	margin-top: 110px;
+#workoutlog img{
+	width: 300px;
+	display:inline-block;
+  float: left;
 }
+#workflow .container {
+	margin-top: 200px;
+}
+#workoutlog .container {
+	margin-top: 200px;
+}
+
 
 
 .nav-item a {
@@ -112,7 +142,15 @@ p{
 	width: 60%;
 	margin-left:20%;
 }
+.casestudy2 p{
+	width: 60%;
+	margin-left:20%;
+}
 .problem p{
+	width: 60%;
+	margin-left:20%;
+}
+.problem2 p{
 	width: 60%;
 	margin-left:20%;
 }
@@ -120,11 +158,23 @@ p{
 	width: 60%;
 	margin-left:20%;
 }
+.solution2 p{
+	width: 60%;
+	margin-left:20%;
+}
 .survey p{
 	width: 60%;
 	margin-left:20%;
 }
+.survey2 p{
+	width: 60%;
+	margin-left:20%;
+}
 .analysis p{
+	width: 60%;
+	margin-left:20%;
+}
+.analysis2 p{
 	width: 60%;
 	margin-left:20%;
 }
@@ -133,7 +183,16 @@ p{
 	margin-left:20%;
 	padding-bottom: 2em;
 }
+.persona2 p{
+	width: 60%;
+	margin-left:20%;
+	padding-bottom: 2em;
+}
 .flow p{
+	width: 60%;
+	margin-left:20%;
+}
+.flow2 p{
 	width: 60%;
 	margin-left:20%;
 }
@@ -142,7 +201,16 @@ p{
 	margin-left:20%;
 	padding-bottom: 3em;
 }
+.paper_prototype2 p{
+	width: 60%;
+	margin-left:20%;
+	padding-bottom: 3em;
+}
 .branding p{
+	width: 60%;
+	margin-left:20%;
+}
+.branding2 p{
 	width: 60%;
 	margin-left:20%;
 }
@@ -150,10 +218,23 @@ p{
 	width: 60%;
 	margin-left:20%;
 }
+.wireframes2 p{
+	width: 60%;
+	margin-left:20%;
+}
 .highfidelity p{
 		width: 60%;
 		margin-left:20%;
-}.conclusion p{
+}
+.highfidelity2 p{
+		width: 60%;
+		margin-left:20%;
+}
+.conclusion p{
+	width: 60%;
+	margin-left:20%;
+}
+.conclusion2 p{
 	width: 60%;
 	margin-left:20%;
 }
@@ -168,8 +249,48 @@ h3{
   line-height: 60px;
 	margin-bottom: 3rem ;
   color: #7FB9B5;
-
 }
+/*h3 of project2 colors*/
+.problem2 h3{
+	color: #5E8DAE;
+}
+.casestudy2 h3{
+	color: #5E8DAE;
+}
+.solution2 h3{
+	color: #5E8DAE;
+}
+.survey2 h3{
+	color: #5E8DAE;
+}
+.analysis2 h3{
+	color: #5E8DAE;
+}
+.flow2 h3{
+	color: #5E8DAE;
+}
+.paper_prototype2 h3{
+	color: #5E8DAE;
+}
+.persona2 h3{
+	color: #5E8DAE;
+}
+.wireframes2 h3{
+	color: #5E8DAE;
+}
+.branding2 h3{
+	color: #5E8DAE;
+}
+.highfidelity2 h3{
+	color: #5E8DAE;
+}
+.conclusion2 h3{
+	color: #5E8DAE;
+}
+
+
+
+
 
 h4{
 	font-size: 3rem;
@@ -187,6 +308,10 @@ h4{
 	color: white;
 	text-align: left;
 }
+#workoutlog h4{
+	color: white;
+	text-align: left;
+}
 
 .comment p{
 	font-size: 1.6rem;
@@ -194,8 +319,8 @@ h4{
 	font-style: italic;
 }
 
-.casestudy{
-
+.problem2{
+background-color:#EEFAFF;
 }
 .problem {
 	background-color:#DBEDEC;
@@ -203,8 +328,17 @@ h4{
 .solution{
 
 }
+
+.banner2background{
+			background-color:#82BEE8;
+}
 .survey{
 		background-color:#DBEDEC;
+		display:block;
+	  text-align: center;
+}
+.survey2{
+		background-color:#EEFAFF;
 		display:block;
 	  text-align: center;
 }
@@ -212,17 +346,29 @@ h4{
 .persona{
 	background-color:#DBEDEC;
 }
+.persona2{
+	background-color:#EEFAFF;
+}
 .paper_prototype{
 	background-color:#DBEDEC;
 }
+.paper_prototype2{
+	background-color:#EEFAFF;
+}
 .branding{
 background-color:#DBEDEC;
+}
+.branding2{
+background-color:#EEFAFF;
 }
 .wireframes{
 
 }
 .conclusion{
 	background-color:#DBEDEC;
+}
+.conclusion2{
+	background-color:#EEFAFF;
 }
 h2{
   font-size: 2rem;
@@ -380,7 +526,7 @@ i:hover{
 }
 
 .flowsketch img {
-  width: 330px;
+  width: 340px;
   display:inline-block;
   margin-left: 0rem;
   margin-right: auto;
@@ -417,6 +563,26 @@ i:hover{
   padding-top: 4rem;
 }
 
+.flowmock2 img {
+  width: 70%;
+  display:inline-block;
+  margin-left: 0rem;
+  margin-right: auto;
+  padding-top: 4rem;
+}
+
+.flowmock2 {
+  display:block;
+  text-align: center;
+}
+
+.flowmock2 p {
+  font-size: 1.6rem;
+  font-style: italic;
+  padding-bottom: 5rem;
+  padding-top: 4rem;
+}
+
 .row::after {
 	content: "";
    clear: both;
@@ -435,6 +601,12 @@ i:hover{
 
 .wireframes-mock p{
 	padding-top: 5rem;
+}
+.wireframe2para p{
+	padding-top:5rem;
+}
+.wireframes2 p{
+	padding-bottom: 5rem;
 }
 .prototypes {
   float: left;
@@ -518,6 +690,8 @@ i:hover{
   margin-right: auto;
   padding: 0rem 0;
 }
+
+
 .prototypes {
   display:block;
   text-align: center;
@@ -539,6 +713,15 @@ i:hover{
 .link p {
  text-align: center;
 }
+
+.link2 p{
+	text-align: center;
+	padding-bottom: 5rem;
+}
+.link2 a{
+	color:#5E8DAE;
+}
+
 .mobilefid {
   display:block;
   text-align: center;
@@ -570,6 +753,17 @@ i:hover{
 .highfidpara {
 	margin-top: -100px;
 }
+
+.highfid2para1 {
+	padding-bottom: 3rem;
+}
+
+.highfid2para2 {
+	margin-top: -30px;
+	padding-bottom: 3rem;
+}
+
+
 
 /*Contact */
 
@@ -687,6 +881,22 @@ input[type="button"]:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
+.button2 {
+  background-color: #E18486;
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 
 /*button*/
 #myBtn {
@@ -831,7 +1041,15 @@ input[type="button"]:hover {
 		width: 100%;
 		margin-left:1%;
 	}
+	.casestudy2 p{
+		width: 100%;
+		margin-left:1%;
+	}
 	.problem p{
+		width: 100%;
+		margin-left:1%;
+	}
+	.problem2 p{
 		width: 100%;
 		margin-left:1%;
 	}
@@ -839,7 +1057,15 @@ input[type="button"]:hover {
 		width: 100%;
 	margin-left:1%;
 	}
+	.solution2 p{
+		width: 100%;
+	margin-left:1%;
+	}
 	.survey p{
+		width: 100%;
+margin-left:1%;
+	}
+	.survey2 p{
 		width: 100%;
 margin-left:1%;
 	}
@@ -847,21 +1073,39 @@ margin-left:1%;
 		width: 100%;
 margin-left:1%;
 	}
+	.analysis2 p{
+		width: 100%;
+margin-left:1%;
+	}
 	.persona p{
 		width: 100%;
 		margin-left:1%;
-
+	}
+	.persona2 p{
+		width: 100%;
+		margin-left:1%;
 	}
 	.flow p{
+		width: 100%;
+		margin-left:1%;
+	}
+	.flow2 p{
 		width: 100%;
 		margin-left:1%;
 	}
 	.paper_prototype p{
 		width: 100%;
 		margin-left:1%;
-
+	}
+	.paper_prototype2 p{
+		width: 100%;
+		margin-left:1%;
 	}
 	.branding p{
+		width: 100%;
+		margin-left:1%;
+	}
+	.branding2 p{
 		width: 100%;
 		margin-left:1%;
 	}
@@ -869,10 +1113,23 @@ margin-left:1%;
 		width: 100%;
 		margin-left:1%;
 	}
+	.wireframes2 p{
+		width: 100%;
+		margin-left:1%;
+	}
 	.highfidelity p{
 		width: 100%;
 		margin-left:1%;
-	}.conclusion p{
+	}
+	.highfidelity2 p{
+		width: 100%;
+		margin-left:1%;
+	}
+	.conclusion p{
+		width: 100%;
+		margin-left:1%;
+	}
+	.conclusion2 p{
 		width: 100%;
 		margin-left:1%;
 	}
@@ -898,6 +1155,15 @@ margin-left:1%;
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#workoutlog img{
+		width: 200px;
+		margin-left: 53px;
+}
+.button2 {
+margin-left: 60px;
+}
+
+
 }
 @media screen and (max-width: 600px) {
 	#workflow img{
@@ -909,10 +1175,26 @@ margin-left:1%;
 		font-size: 1.8rem;
 
 	}
+	#workoutlog .container {
+		margin-top: 0px;
+	}
+
+	#workoutlog p{
+		font-size: 1.8rem;
+
+	}
 	#workflow .container {
 		margin-top: 30px;
 	}
+
 	.workflow-text{
+		text-align: center;
+		justify-content: center;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.workout-text{
 		text-align: center;
 		justify-content: center;
 		display:block;
@@ -955,5 +1237,8 @@ width:100%;
 @media screen and (max-width: 800px) {
 .flowsketch{
 		width:90%;
+	}
+	.workoutlog-content{
+		margin-left:0px;
 	}
 }
