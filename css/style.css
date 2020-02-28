@@ -89,7 +89,10 @@ body{
 }
 .workoutlog-content{
 	margin-left: 250px;
+}.workoutlog-content img{
+	padding-right: 40px;
 }
+
 #workflow img{
 	width:550px;
 	display:inline-block;
